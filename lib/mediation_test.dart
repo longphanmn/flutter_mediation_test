@@ -6,7 +6,7 @@ class MediationTest {
 
   static void presentTestSuite() async {
     try {
-      await _channel.invokeMethod('showTestSuite');
+      await _channel.invokeMethod('presentTestSuite');
     } on PlatformException catch (e) {
       debugPrint(e.message);
     }

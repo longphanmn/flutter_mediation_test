@@ -1,4 +1,4 @@
-package in.minhnhan.mediation_test_example
+package com.minhnhan.mediationtestexample
 
 import io.flutter.embedding.android.FlutterActivity
 

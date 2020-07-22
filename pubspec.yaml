@@ -27,7 +27,7 @@ flutter:
   plugin:
     platforms:
       android:
-        package: in.minhnhan.mediation_test
+        package: com.minhnhan.mediationtest
         pluginClass: MediationTestPlugin
       ios:
         pluginClass: MediationTestPlugin

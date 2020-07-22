@@ -12,7 +12,7 @@ public class SwiftMediationTestPlugin: NSObject, FlutterPlugin {
   public func handle(_ call: FlutterMethodCall, result: @escaping FlutterResult) {
        let viewController: UIViewController =
             (UIApplication.shared.delegate?.window??.rootViewController)!;
-     guard call.method == "showTestSuite" else {
+     guard call.method == "presentTestSuite" else {
         result(FlutterMethodNotImplemented)
         return
       }

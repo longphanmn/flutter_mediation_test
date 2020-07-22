@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="in.minhnhan.mediation_test_example">
+    package="com.minhnhan.mediationtestexample">
     <!-- io.flutter.app.FlutterApplication is an android.app.Application that
          calls FlutterMain.startInitialization(this); in its onCreate method.
          In most cases you can leave this as-is, but you if you want to provide
@@ -7,7 +7,7 @@
          FlutterApplication and put your custom class here. -->
     <application
         android:name="io.flutter.app.FlutterApplication"
-        android:label="mediation_test_example"
+        android:label="mediationtestexample"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"
@@ -45,6 +45,6 @@
             android:value="2" />
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="ca-app-pub-3940256099942544~3347511713 "/>
+            android:value="ca-app-pub-3940256099942544~3347511713"/>
     </application>
 </manifest>

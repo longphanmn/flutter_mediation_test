@@ -1,4 +1,4 @@
-group 'in.minhnhan.mediation_test'
+group 'com.minhnhan.mediationtest'
 version '1.0-SNAPSHOT'
 
 buildscript {

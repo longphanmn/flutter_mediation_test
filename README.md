@@ -1,6 +1,6 @@
 # mediation_test
 
-Admob Mediation Test Suite
+A Plugin to present Admob Mediation Test Suite for flutter app
 
 Installing:
 

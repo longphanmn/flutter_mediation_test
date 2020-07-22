@@ -1,7 +1,7 @@
 name: mediation_test
-description: Admob Mediation Test Suite
-version: 0.0.1
-author: Long Phan
+description: A Plugin to present Admob Mediation Test Suite for flutter app
+version: 0.0.2
+homepage: https://minhnhan.in
 
 environment:
   sdk: ">=2.7.0 <3.0.0"

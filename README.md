@@ -6,7 +6,7 @@ Installing:
 
 ~~~~
 dependencies:
-  mediation_test: ^0.0.1
+  mediation_test: ^0.0.2
 ~~~~
     
 Using:

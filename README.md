@@ -7,7 +7,8 @@ Installing:
 ~~~~
 dependencies:
   mediation_test: ^0.0.3
-
+~~~~
+    
 Using:
 
 ~~~~

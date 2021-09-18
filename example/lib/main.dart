@@ -1,9 +1,10 @@
-import 'package:admob_flutter/admob_flutter.dart';
+import 'package:google_mobile_ads/google_mobile_ads.dart';
 import 'package:flutter/material.dart';
 import 'package:mediation_test/mediation_test.dart';
 
 void main() {
-  Admob.initialize();
+  WidgetsFlutterBinding.ensureInitialized();
+  MobileAds.instance.initialize();
   runApp(MyApp());
 }
 
@@ -21,7 +22,7 @@ class _MyAppState extends State<MyApp> {
           title: const Text('Sample App'),
         ),
         body: Center(
-          child: RaisedButton(
+          child: ElevatedButton(
               child: Text("Present Test Suite"),
               onPressed: () {
                 MediationTest.presentTestSuite();

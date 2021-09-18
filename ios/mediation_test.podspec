@@ -16,9 +16,9 @@ Present Admob Mediation Test Suite
   s.source_files = 'Classes/**/*'
   s.dependency 'Flutter'
   s.dependency 'GoogleMobileAdsMediationTestSuite'
-  s.platform = :ios, '8.0'
+  s.platform = :ios, '10.0'
 
   # Flutter.framework does not contain a i386 slice. Only x86_64 simulators are supported.
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '10.0'
   s.static_framework = true
 end
